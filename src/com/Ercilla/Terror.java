@@ -30,7 +30,7 @@ public class Terror extends Libro implements Prestable {
     }
 
     @Override
-    public void devolver(LocalDate fechaDevolucon {
+    public void devolver(LocalDate fechaDevolucon) {
         if(this.fechaPrestamo == null){
             System.out.println("El libro no está prestado.");
             return;
